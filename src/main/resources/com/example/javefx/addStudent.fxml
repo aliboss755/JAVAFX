@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="665.0" prefWidth="796.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javefx.Users.Admin">
+   <children>
+      <TextField fx:id="usernameTF" layoutX="377.0" layoutY="80.0" />
+      <TextField fx:id="passwordTF" layoutX="377.0" layoutY="155.0" />
+      <TextField fx:id="naemTF" layoutX="377.0" layoutY="244.0" />
+      <TextField fx:id="universityIdTF" layoutX="377.0" layoutY="328.0" />
+      <TextField fx:id="birthdayTF" layoutX="377.0" layoutY="403.0" />
+      <TextField fx:id="genderTF" layoutX="377.0" layoutY="491.0" />
+      <Label layoutX="185.0" layoutY="85.0" text="User Name" />
+      <Label layoutX="185.0" layoutY="160.0" text="Password" />
+      <Label layoutX="193.0" layoutY="249.0" text="Name" />
+      <Label layoutX="185.0" layoutY="333.0" text="universityId" />
+      <Label layoutX="185.0" layoutY="419.0" text="birthday" />
+      <Label layoutX="189.0" layoutY="496.0" text="gender" />
+      <Button fx:id="addNewStudent" layoutX="333.0" layoutY="578.0" mnemonicParsing="false" text="addNewStudent" />
+   </children>
+</AnchorPane>

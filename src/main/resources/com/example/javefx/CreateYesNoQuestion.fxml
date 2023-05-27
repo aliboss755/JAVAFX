@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="498.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javefx.addYasuoQuestion">
+   <children>
+      <Label layoutX="72.0" layoutY="52.0" prefHeight="21.0" prefWidth="88.0" text="Question id" />
+      <Label layoutX="72.0" layoutY="120.0" text="Question name" />
+      <Label layoutX="72.0" layoutY="190.0" text="Question mark" />
+      <Label layoutX="72.0" layoutY="252.0" text="Question image  " />
+      <Label layoutX="72.0" layoutY="327.0" text="Question answer " />
+      <TextField fx:id="QuestionId" layoutX="215.0" layoutY="47.0" />
+      <TextField fx:id="QuestionName" layoutX="215.0" layoutY="115.0" />
+      <TextField fx:id="QuestionMark" layoutX="215.0" layoutY="185.0" />
+      <TextField fx:id="QuestionImageTF" layoutX="215.0" layoutY="247.0" />
+      <TextField fx:id="QuestionAnswerTF" layoutX="215.0" layoutY="322.0" />
+      <Button fx:id="addQuestionBT" layoutX="215.0" layoutY="410.0" mnemonicParsing="false" onAction="#addQuestionAc" text="addQuestion" />
+   </children>
+</AnchorPane>
